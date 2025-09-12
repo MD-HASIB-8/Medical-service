@@ -1,33 +1,131 @@
 *{
-    margin: 0;
-    position: relative;
-    box-sizing: border-box;
     font-family: sans-serif;
+    box-sizing: border-box;
+    transition: 0.2s ease;
+    position: relative;
+    margin: 0;
 }
 body{
+    white-space: nowrap;
     margin: 10px 50px;
 }
-header{
+header,.ban3{
     justify-content: center;
     align-items: center;
+}
+.head,.nav1,.nav2,.nav3,.ban3{
+    text-align: center;
+}
+.head,.navbar,.ban1,.nav1,.nav2,.nav3,.ban2,.card{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.navbar{
+    margin-bottom: 10px;
+    gap:%;
+}
+.nav2{
+    gap: 12%;
+}
+.nav3{
+    gap: 2%;
+    right: 18px;
 }
 a{
     text-decoration: none;
+    border-radius: 5px;
+    padding: 4px 10px;
     color: black;
 }
-header,.navbar,.ban1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.btn1{
+    border: 1px solid black;
+    background: transparent;
+    border-radius: 20px;
+    padding: 10px 20px;
 }
-header,.navbar{
-    gap: 10%;
+.caps{
+    background: linear-gradient(to right, white 60%,transparent);
+    border-radius: 10px;
+}
+.btn2{
+    background: black;
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: white;
+    border: none;
 }
 .ban1{
     background-color: rgba(158, 173, 219, 0.688);
     border-radius: 20px;
     gap: 8%;
 }
+.ban1 div h1{
+    font-size: 70px;
+}
+.ban1 div p{
+    margin-top: 20px;
+}
+.ban1 div p:nth-child(3){
+    font-weight: 700;
+    margin-top: 20px;
+}
+.qn{
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 0px 5px;
+}
 .ban1 .slide img{
     height: 450px;
+}
+.ban2{
+    background-color: rgb(217, 237, 85);
+    border-radius: 15px;
+    padding: 35px 20px;
+    margin-top: 20px;
+    gap:5%;
+}
+.ban2 img{
+    height: 35px;
+}
+.ban3{
+    margin-top: 40px;
+}
+.ban3 h1{
+    font-size: 44px;
+}
+.ban3 p{
+    opacity: 50%;
+}
+.card{
+    gap: 10px;
+    margin-top: 40px;
+}
+.card div{
+    background: rgba(158, 173, 219, 0.688);
+    padding: 90px 20px 10px 20px;
+    transition: 0.5s ease;
+    border-radius: 20px;
+    text-align: left;
+    height: 300px;
+}
+.card div h1{
+    font-size: 25px;
+    line-height: 70px;
+}
+.card div p{
+    font-size: 15px;
+    line-height: 20px;
+    opacity: 50%;
+}
+.card div:hover{
+    box-shadow: 0px 0px 10px rgba(0, 115, 255, 0.699);
+    background-color: rgb(88, 149, 255);
+    transition: 0.5s ease;
+    margin-top: 10px;
+    color: white;
+}
+a:hover{
+    box-shadow: 0px 0px 5px black;
+    transform: scale(0.95);
 }

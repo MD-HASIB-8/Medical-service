@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    position: relative;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    margin: 10px 50px;
+}
+header{
+    justify-content: center;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+header,.navbar,.ban1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header,.navbar{
+    gap: 10%;
+}
+.ban1{
+    background-color: rgba(158, 173, 219, 0.688);
+    border-radius: 20px;
+    gap: 8%;
+}
+.ban1 .slide img{
+    height: 450px;
+}

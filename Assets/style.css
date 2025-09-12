@@ -1,0 +1,75 @@
+/* Font-01 : Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Font-02 : Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+.roboto {
+    font-family: "Roboto", sans-serif;
+}
+
+.Ubuntu {
+    font-family: "Ubuntu", sans-serif;
+}
+
+.padding-left-right {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+body {
+    background-color: rgb(237, 244, 248);
+}
+
+.border {
+    border: 1px dashed crimson;
+}
+
+.flex {
+    display: flex;
+}
+
+/* Navigation bar section starts here */
+.bg-color {
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color: white;
+}
+.pd {
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.btn-01,
+.btn-02 {
+    border: none;
+    border: 2px solid black;
+    border-radius: 18px;
+    background: white;
+    padding: 5px 9px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.btn-02 {
+    background-color: black;
+    color: white;
+}
+
+.list {
+    gap: 30px;
+    font-size: 16px;
+    font-weight: 700;
+    list-style-type: none;
+}
+
+/* Navigation bar section end here */
+
+/* Banner section starts here */
+.banner-bg{
+        background-color: rgb(237, 244, 248);
+}
+/* Banner section ends here */
